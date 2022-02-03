@@ -22,7 +22,7 @@ ul {
     display: grid;
     min-height: 100vh;
     height: max-content;
-    grid-template: repeat(5, 1fr) / 1fr 5fr;
+    grid-template: minmax(200px, max-content) repeat(4, 1fr) / 1fr 5fr;
 }
 
 /******* REUSABLE SELECTORS *********/
@@ -124,7 +124,6 @@ div[class*='img-wrapper']>img {
 /********** HEADER **********/
 .header {
     display: grid;
-    align-content: space-between;
     padding: 25px 3rem 18px 3rem;
     grid-area: 1 / 2 / 2 / 3;
     background-color: #fff;
@@ -231,7 +230,10 @@ div[class*='img-wrapper']>img {
     background-color: var(--color-catskill-white);
     overflow-y: auto;
 }
-
+.main > * {
+    display: grid;
+    grid-template-rows: 40px minmax(400px , 1fr);
+}
 .dashboard__label {
     font-size: clamp(1rem, 1.1vw, 2rem);
     font-weight: 500;
@@ -286,7 +288,6 @@ div[class*='img-wrapper']>img {
 
 .dashboard__announcements {
     display: grid;
-    grid-template-rows: 1fr 6fr;
     justify-items: flex-start;
     grid-area: 1 / 2 / 2 / 3;
 }
@@ -319,7 +320,6 @@ div[class*='img-wrapper']>img {
 
 .dashboard__trending {
     display: grid;
-    grid-template-rows: 1fr 6fr;
     grid-area: 2 / 2 / 3 / 3;
 }
 
