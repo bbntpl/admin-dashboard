@@ -12,32 +12,6 @@
 
 <body>
     <div class="layout">
-        <header class="header">
-            <nav class="header__upper">
-                <div class="searchbar">
-                    <div class="searchbar-wrapper">
-                        <input class="searchbar__input" type="text" />
-                    </div>
-                </div>
-                <div class="user__notifier">
-                    <div class="img-wrapper--sml"><img /></div>
-                    <p class="user__notifier__name">B.B. Antipolo</p>
-                </div>
-            </nav>
-            <div class="header__lower">
-                <div class="user__profile">
-                    <div class="img-wrapper--med"><img src="" alt=""></div>
-                    <div class="user__profile__intro">
-                        <h6 class="user__profile__greetings">Hi there,</h6>
-                        <h3 class="user__profile__name">B.B. Antipolo (@bvrbryn445)</h3>
-                    </div>
-                </div>
-                <ul class="user__options">
-                    <li><button>New</button></li>
-                    <li><button>Upload</button></li>
-                    <li><button>Share</button></li>
-                </ul>
-        </header>
         <div class="sidebar">
             <span class="logo-wrapper">
                 <div class="logo">
@@ -50,24 +24,235 @@
             </span>
             <ul class="nav__section">
                 <li>
+                    <img src="/assets/icons/home.svg" />
                     <p>Home</p>
                 </li>
                 <li>
+                    <img src="/assets/icons/profile.svg" />
                     <p>Profile</p>
                 </li>
-                <li>
+                <li> 
+                    <img src="/assets/icons/message.svg" />
                     <p>Messages</p>
                 </li>
                 <li>
+                    <img src="/assets/icons/history.svg" />
                     <p>History</p>
                 </li>
                 <li>
+                    <img src="/assets/icons/task.svg" />
                     <p>Tasks</p>
                 </li>
                 <li>
+                    <img src="/assets/icons/community.svg" />
                     <p>Communities</p>
                 </li>
             </ul>
+            <ul class="nav__section">
+                <li>
+                    <img src="/assets/icons/settings.svg" />
+                    <p>Settings</p>
+                </li>
+                <li>
+                    <img src="/assets/icons/support.svg" />
+                    <p>Support</p>
+                </li>
+                <li>
+                    <img src="/assets/icons/privacy.svg" />
+                    <p>Privacy</p>
+                </li>
+            </ul>
+        </div>
+        <header class="header">
+            <nav class="header__upper">
+                <div class="searchbar">
+                    <img src="/assets/icons/magnify.svg" />
+                    <div class="searchbar-wrapper">
+                        <input class="searchbar__input" type="text" />
+                    </div>
+                </div>
+                <div class="user__notifier">
+                    <img src="/assets/icons/notify.svg" />
+                    <div class="img-wrapper--sml"><img
+                            src="https://lh3.googleusercontent.com/ogw/ADea4I7toW3tk176OfFj8YYCkSKI1V-imkkzRZhMlzS_kg=s83-c-mo"
+                            alt="bb" /></div>
+                    <p class="user__notifier__name">B.B. Antipolo</p>
+                </div>
+            </nav>
+            <div class="header__lower">
+                <div class="user__profile">
+                    <div class="img-wrapper--med"><img
+                            src="https://lh3.googleusercontent.com/ogw/ADea4I7toW3tk176OfFj8YYCkSKI1V-imkkzRZhMlzS_kg=s83-c-mo"
+                            alt="bb"></div>
+                    <div class="user__profile__intro">
+                        <h6 class="user__profile__greetings">Hi there,</h6>
+                        <h3 class="user__profile__name">B.B. Antipolo (@bvrbryn445)</h3>
+                    </div>
+                </div>
+                <ul class="user__options">
+                    <li><button>New</button></li>
+                    <li><button>Upload</button></li>
+                    <li><button>Share</button></li>
+                </ul>
+        </header>
+        <main class="main">
+            <div class="dashboard__projects">
+                <h3 class="dashboard__label">
+                    Your Projects
+                </h3>
+                <ul class="project-list">
+                    <li class="project__card">
+                        <section class="project__card__inner">
+                            <article class="project__info">
+                                <h6 class="project__title">
+                                    Odin Recipes
+                                </h6>
+                                <p class="project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis suscipit dui, nec hendrerit ante. Nunc interdum sodales metus, in pretium enim lacinia at.</p>
+                            </article>
+                            <ul class="project__options">
+                                <li><img src="/assets/icons/star.svg" /></li>
+                                <li><img src="/assets/icons/view.svg" /></li>
+                                <li><img src="/assets/icons/fork.svg" /></li>
+                            </ul>
+                        </section>
+                    </li>
+                    <li class="project__card">
+                        <div class="project__border">
+                            <section class="project__card__inner">
+                                <article class="project__info">
+                                    <h6 class="project__title">Landing Page</h6>
+                                    <p class="project__desc">urabitur a pulvinar ipsum. Proin fringilla metus in sapien sodales ultrices et id nisi. Vestibulum fermentum dolor non semper euismod.</p>
+                                </article>
+                                <ul class="project__options">
+                                    <li><img src="/assets/icons/star.svg" /></li>
+                                    <li><img src="/assets/icons/view.svg" /></li>
+                                    <li><img src="/assets/icons/fork.svg" /></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </li>
+                    <li class="project__card">
+                        <div class="project__border">
+                            <section class="project__card__inner">
+                                <article class="project__info">
+                                    <h6 class="project__title">Etch a Sketch Page</h6>
+                                    <p class="project__desc">Nulla a felis condimentum, accumsan odio a, efficitur elit. Etiam vel erat porta, consequat felis sit amet, interdum neque.</p>
+                                </article>
+                                <ul class="project__options">
+                                    <li><img src="/assets/icons/star.svg" /></li>
+                                    <li><img src="/assets/icons/view.svg" /></li>
+                                    <li><img src="/assets/icons/fork.svg" /></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </li>
+                    <li class="project__card">
+                        <div class="project__border">
+                            <section class="project__card__inner">
+                                <article class="project__info">
+                                    <h6 class="project__title">Calculator</h6>
+                                    <p class="project__desc">In viverra mi eu purus vulputate, quis laoreet velit interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam commodo, purus eu vestibulum sodales, lectus mi interdum nisl, eget iaculis nulla dolor nec lacus.</p>
+                                </article>
+                                <ul class="project__options">
+                                    <li><img src="/assets/icons/star.svg" /></li>
+                                    <li><img src="/assets/icons/view.svg" /></li>
+                                    <li><img src="/assets/icons/fork.svg" /></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </li>
+                    <li class="project__card">
+                        <div class="project__border">
+                            <section class="project__card__inner">
+                                <article class="project__info">
+                                    <h6 class="project__title">Library App</h6>
+                                    <p class="project__desc">Sed risus nisl, molestie ut nibh sit amet, tempus mollis erat. Morbi laoreet ultrices quam, eget facilisis turpis tincidunt accumsan.</p>
+                                </article>
+                                <ul class="project__options">
+                                    <li><img src="/assets/icons/star.svg" /></li>
+                                    <li><img src="/assets/icons/view.svg" /></li>
+                                    <li><img src="/assets/icons/fork.svg" /></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </li>
+                    <li class="project__card">
+                        <div class="project__border">
+                            <section class="project__card__inner">
+                                <article class="project__info">
+                                    <h6 class="project__title">Restaurant Page</h6>
+                                    <p class="project__desc">Nulla placerat, massa ac euismod iaculis, leo lacus efficitur nunc, vitae sagittis nulla lectus vitae tortor. Morbi non dui in mauris sodales dictum nec luctus arcu. Quisque bibendum velit sit amet enim vehicula, vel aliquet orci vehicula. </p>
+                                </article>
+                                <ul class="project__options">
+                                    <li><img src="/assets/icons/star.svg" /></li>
+                                    <li><img src="/assets/icons/view.svg" /></li>
+                                    <li><img src="/assets/icons/fork.svg" /></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="dashboard__announcements">
+                <h3 class="dashboard__label">Announcements</h3>
+                <section class="announcement__card">
+                    <article class="announcement__article">
+                        <h6 class="announcement__title">Site Maintenance</h6>
+                        <p class="announcement__desc">Pellentesque pellentesque nibh sit amet quam laoreet, eget mattis lorem efficitur. Curabitur vestibulum facilisis urna, quis ultricies diam pulvinar vitae. </p>
+                    </article>
+                    <article class="announcement__article">
+                        <h6 class="announcement__title">Community Share Day</h6>
+                        <p class="announcement__desc">Curabitur rhoncus aliquet pellentesque. Phasellus cursus lorem a ante egestas eleifend. Sed cursus, justo at consectetur elementum, nibh velit scelerisque justo, non pretium urna elit aliquet sapien.</p>
+                    </article>
+                    <article class="announcement__article">
+                        <h6 class="announcement__title">Updated Privacy Policy</h6>
+                        <p class="announcement__desc">In bibendum arcu et diam tempus, et elementum ex dapibus. Morbi tortor risus, tempor maximus posuere eget, scelerisque in nisl. Sed scelerisque iaculis augue.  </p>
+                    </article>
+                </section>
+            </div>
+            <div class="dashboard__trending">
+                <h3 class="dashboard__label">Trending</h3>
+                <ul class="trending__card">
+                    <li class="trending__item">
+                        <div class="img-wrapper--sml">
+                            <img src="https://lh3.googleusercontent.com/ogw/ADea4I7toW3tk176OfFj8YYCkSKI1V-imkkzRZhMlzS_kg=s83-c-mo" alt="">
+                        </div>
+                        <div class="trending__user__details">
+                            <h6 class="trending__user__name">@tegan</h6>
+                            <p class="trending__user__prj">World Peace Builder</p>
+                        </div>
+                    </li>
+                    <li class="trending__item">
+                        <div class="img-wrapper--sml">
+                            <img src="https://lh3.googleusercontent.com/ogw/ADea4I7toW3tk176OfFj8YYCkSKI1V-imkkzRZhMlzS_kg=s83-c-mo" alt="">
+                        </div>
+                        <div class="trending__user__details">
+                            <h6 class="trending__user__name">@tegan</h6>
+                            <p class="trending__user__prj">World Peace Builder</p>
+                        </div>
+                    </li>
+                    <li class="trending__item">
+                        <div class="img-wrapper--sml">
+                            <img src="https://lh3.googleusercontent.com/ogw/ADea4I7toW3tk176OfFj8YYCkSKI1V-imkkzRZhMlzS_kg=s83-c-mo" alt="">
+                        </div>
+                        <div class="trending__user__details">
+                            <h6 class="trending__user__name">@tegan</h6>
+                            <p class="trending__user__prj">World Peace Builder</p>
+                        </div>
+                    </li>
+                    <li class="trending__item">
+                        <div class="img-wrapper--sml">
+                            <img src="https://lh3.googleusercontent.com/ogw/ADea4I7toW3tk176OfFj8YYCkSKI1V-imkkzRZhMlzS_kg=s83-c-mo" alt="">
+                        </div>
+                        <div class="trending__user__details">
+                            <h6 class="trending__user__name">@tegan</h6>
+                            <p class="trending__user__prj">World Peace Builder</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
             <ul class="nav__section">
                 <li>
                     <p>Settings</p>
@@ -79,127 +264,7 @@
                     <p>Privacy</p>
                 </li>
             </ul>
-        </div>
-        <main class="main">
-            <div class="dashboard__projects">
-                <h3 class="dashboard__label">
-                    Your Projects
-                </h3>
-                <ul class="project-list">
-                    <li class="project__card">
-                        <div class="project__card">
-                            <div class="project__border"></div>
-                            <section class="project__card__inner">
-                                <article class="project__info">
-                                    <h6 class="project__title"></h6>
-                                    <p class="project__desc"></p>
-                                </article>
-                                <ul class="project__options">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                            </section>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div class="project__border">
-                            <section class="project__card__inner">
-                                <article class="project__info">
-                                    <h6 class="project__title"></h6>
-                                    <p class="project__desc"></p>
-                                </article>
-                                <ul class="project__options">
-                                    <li></li>
-                                    <li></li>
-                                    <li> </li>
-                                </ul>
-                            </section>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div class="project__border">
-                            <section class="project__card__inner">
-                                <article class="project__info">
-                                    <h6 class="project__title"></h6>
-                                    <p class="project__desc"></p>
-                                </article>
-                                <ul class="project__options">
-                                    <li></li>
-                                    <li></li>
-                                    <li> </li>
-                                </ul>
-                            </section>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div class="project__border">
-                            <section class="project__card__inner">
-                                <article class="project__info">
-                                    <h6 class="project__title"></h6>
-                                    <p class="project__desc"></p>
-                                </article>
-                                <ul class="project__options">
-                                    <li></li>
-                                    <li></li>
-                                    <li> </li>
-                                </ul>
-                            </section>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div class="project__border">
-                            <section class="project__card__inner">
-                                <article class="project__info">
-                                    <h6 class="project__title"></h6>
-                                    <p class="project__desc"></p>
-                                </article>
-                                <ul class="project__options">
-                                    <li></li>
-                                    <li></li>
-                                    <li> </li>
-                                </ul>
-                            </section>
-                        </div>
-                    </li>
-                    <li class="project">
-                        <div class="project__border">
-                            <section class="project__card__inner">
-                                <article class="project__info">
-                                    <h6 class="project__title"></h6>
-                                    <p class="project__desc"></p>
-                                </article>
-                                <ul class="project__options">
-                                    <li></li>
-                                    <li></li>
-                                    <li> </li>
-                                </ul>
-                            </section>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="dashboard__announcements">
-                <h3></h3>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="dashboard__trending">
-                <h3></h3>
-                <ul>
-                    <li>
-                        <div><img src="" alt=""></div>
-                        <div>
-                            <p></p>
-                            <p></p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </main>
+        </footer>
     </div>
 </body>
 
